@@ -1,0 +1,41 @@
+#l-body{
+    margin: 0;
+}
+
+#l-footer{
+    padding: 10px;
+    margin: 0;
+}
+
+#l-social{
+    max-width: auto;
+    max-height: auto;
+    padding: 0;
+    margin: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.l-social-media{
+    padding: 10px;
+}
+
+.social-media__link{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.fa-brands{
+    font-size: 20px;
+}
+
+.fa-regular{
+    font-size: 20px;
+}
+
+#l-right{
+    text-align: center;
+    font-size: 20px;
+}
