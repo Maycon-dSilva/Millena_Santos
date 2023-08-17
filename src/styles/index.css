@@ -2,9 +2,15 @@
     margin: 0;
 }
 
+#l-main{
+    margin: 20px;
+}
+
+
+/*============================= Footer ===============================*/
 #l-footer{
-    padding: 10px;
     margin: 0;
+    padding-bottom: 10px;
 }
 
 #l-social{
@@ -38,4 +44,5 @@
 #l-right{
     text-align: center;
     font-size: 20px;
+    margin-bottom: 10px;
 }

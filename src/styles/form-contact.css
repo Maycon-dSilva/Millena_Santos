@@ -1,0 +1,97 @@
+#l-contact{
+    padding: 10px;
+}
+
+#form-contact{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+fieldset{
+    border: none;
+    margin-bottom: 20px;
+}
+
+label{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+input{
+    border-style: none none dotted none;
+}
+
+#contact-name{
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#select-event{
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#event-date{
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    font-size: 17px;
+}
+
+select{
+    border: 2px;
+    border-style: none none dotted none;
+}
+
+#total-conv{
+    width: 50px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+    align-items: center;
+}
+
+#contact-tel{
+    width: 200px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#contact-email{
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+#send{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 20px ;
+}
+#delet{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    border: 1px solid;
+    border-radius: 20px ;
+}
+
+.fa-paper-plane{
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.fa-trash{
+    font-size: 17px;
+    padding-left: 20px;
+}

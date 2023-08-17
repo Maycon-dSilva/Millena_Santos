@@ -8,6 +8,7 @@
     <meta name="keywords" content="Fotografia, Casamento, Aniversario, Eventos">
     <title>Millena Santos</title>
     <link rel="stylesheet" href="src/styles/index.css">
+    <link rel="stylesheet" href="src/styles/form-contact.css">
 </head>
 <body id="l-body">
     <header id="l-header">
@@ -15,8 +16,41 @@
     <main id="l-main">
         <section id="l-about"></section>
         <section id="l-event"></section>
-        <section id="l-contact"></section>
+        <section id="l-contact">
+            <form id="form-contact">
+                <fieldset>
+                    <label for="contact-name">Olá, me chamo</label>
+                    <input type="text" id="contact-name" name="contact-name" maxlength="16" autofocus required>
+                    <label for="select-event">, e gostaria de recebr um orçamento para um(a)</label>
+                    <select id="select-event" name="select-event" required>
+                        <option value="casamento">Casamento</option>
+                        <option value="festa infantil">Festa Infantil</option>
+                        <option value="debutante">15 Anos</option>
+                        <option value="" selected></option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="event-date">Planejamos para a Data:</label>
+                    <input type="date" id="event-date" name="event-date" required>
+                    <label for="total-conv">O número aproximado de convidados será de:</label>
+                    <input type="number" id="total-conv" name="total-conv" min="30" value="30" required>
+                </fieldset>
+                <fieldset>
+                    <label for="contact-tel">Para contato, segue meu telefone:</label>
+                    <input type="tel" id="contact-tel" name="contact-tel" pattern="[0-9]{3}-[0-9]{6}-[0-9]{4}" required>
+                    <label for="contact-email">Mas caso prefira, este é o meu E-mail:</label>
+                    <input type="email" id="contact-email" name="contact-email">
+                </fieldset>
+                <button type="submit" id="send">Enviar
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <button type="reset" id="delet">Apagar
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+            </form>
+        </section>
     </main>
+    <!--==================== Footer =====================================================-->
     <footer id="l-footer">
         <div id="l-social">
             <div class="l-social-media">
@@ -37,7 +71,7 @@
             </div>
             <div class="l-social-media">
                 <i class="fa-regular fa-envelope"></i>
-                <a class="social-media__link" href="mailto:millena.santos@gmail.com" title="E-mail">mailto:millena.santos@gmail.com</a>
+                <a class="social-media__link" href="mailto:millena.santos@gmail.com" title="E-mail">millena.santos@gmail.com</a>
             </div>
         </div>
         <div id="l-right">
